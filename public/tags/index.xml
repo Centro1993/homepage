@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Jonas Leitner</title>
+    <link>https://jonasleitner.de/tags/</link>
+    <description>Recent content in Tags on Jonas Leitner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://jonasleitner.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>nestjs</title>
+      <link>https://jonasleitner.de/tags/nestjs/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://jonasleitner.de/tags/nestjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>project</title>
+      <link>https://jonasleitner.de/tags/project/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://jonasleitner.de/tags/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vuejs</title>
+      <link>https://jonasleitner.de/tags/vuejs/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://jonasleitner.de/tags/vuejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vuex</title>
+      <link>https://jonasleitner.de/tags/vuex/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://jonasleitner.de/tags/vuex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>websockets</title>
+      <link>https://jonasleitner.de/tags/websockets/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://jonasleitner.de/tags/websockets/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

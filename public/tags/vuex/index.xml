@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vuex on Jonas Leitner</title>
+    <link>https://jonasleitner.de/tags/vuex/</link>
+    <description>Recent content in vuex on Jonas Leitner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://jonasleitner.de/tags/vuex/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shopping List</title>
+      <link>https://jonasleitner.de/blog/shopping_list/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://jonasleitner.de/blog/shopping_list/</guid>
+      <description>Links  Github  und die Liste selbst .
+Stack: MongoDB und NestJS im Backend, VueJS 3.0 Beta komplett mit Typescript und VueX als Statemanager im Frontend. Besonderheit: Der Client und die API teilen sich die Typen, so habe ich über das ganze Projekt Typsicherheit und Autocompletion! Websockets sorgen für sofortige Synchronisation zwischen verschiedenen Clients, und das ganze Ding lässt sich auch als PWA auf dem Handy abspeichern.
+What does it do?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+[tagged_in]
+other = "Getagged in"
+
+[other_tags]
+other = "Andere Tags"
+
+[read_more]
+other = "Mehr lesen"
+
+[name]
+other = "Name"
+
+[your_message]
+other = "Deine Nachricht"
+
+[cancel]
+other = "Abbrechen"
+
+[submit]
+other = "Senden"
+
+[previous]
+other = "Previous"
+
+[next]
+other = "Next"
+
+[back]
+other = "Zurück"
+
+[contact]
+other = "Kontakt"
+
+[contact_email]
+other = "Schreibe mir eine Mail"
+
+[latest_post]
+other = "Letzter Post"
+
+[reading_time]
+other = "{{ .ReadingTime }} min Lesezeit"
+
+[home]
+other = "Home"
+
+[about]
+other = "Über"
+
+[blog]
+other = "Blog"
+
+[present]
+other = "Heute"
+
+[required_fields]
+other = "Benötigte Felder"
