@@ -14,5 +14,6 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }} 
         port: ${{ secrets.PORT }}
-        source: "*"
-        target: "/var/www/html/homepage"
+        source: public/*
+        target: /var/www/html/homepage/
+        strip_components: 1
