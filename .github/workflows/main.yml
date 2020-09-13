@@ -8,12 +8,11 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: copy file via ssh password
-      uses: appleboy/scp-action@master
+      uses: horochx/deploy-via-scp@master
       with:
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.KEY }} 
-        port: ${{ secrets.PORT }}
-        source: public/index.html
-        target: /var/www/html/homepage/
-        strip_components: 1
+        local: public # eg: dist
+        remote: /var/www/html/homepage # eg: /home/github-action
+        host: ${{ secrets.HOST }} # eg: example.com
+        port: ${{ secrets.PORT }} # eg: 22
+        user: ${{ secrets.USERNAME }} # eg: github-action
+        key: ${{ secrets.KEY }} # eg: -----BEGIN OPENSSH PRIVATE KEY-----\nHEIiyzh5cT7hN...
