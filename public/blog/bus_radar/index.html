@@ -5,11 +5,11 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name=viewport content="width=device-width, initial-scale=1">
 
-<meta name="description" content="Eine digitale Einkaufsliste" />
+<meta name="description" content="Eins meiner liebsten Studienprojekte." />
 
 <title>
 	Jonas Leitner
-	 - Shopping List 
+	 - Busradar-Mining 
 </title>
 
 
@@ -116,11 +116,11 @@
 <button onclick="window.history.back()"
 	class="bg-transparent border-none font-bold">&larr;Zurück</button>
 <h1 class="text-center mx-auto max-w-4xl text-4xl sm:text-5xl md:text-6xl">
-	Shopping List
+	Busradar-Mining
 </h1>
 
 <h2 class="text-center font-serif font-thin mx-auto mb-16 max-w-4xl text-4xl">
-	Weil analoge Einkaufszettel zu einfach sind.
+	Eine Analyse von Flensburgs Busdaten.
 </h2>
 
 <div class="text-justify leading-loose mb-12 text-lg">
@@ -130,7 +130,7 @@
 
 
 
-<a href="https://github.com/Centro1993/ShoppingList" 
+<a href="https://github.com/Centro1993/Busradar-Visualization" 
 	class="underline "  target="_blank" rel="noopener"
 	>
 	<em>Github</em>
@@ -139,25 +139,31 @@
 
 
 
-<a href="https://shoppinglist.jonasleitner.de" 
+<a href="https://busradar.jonasleitner.de" 
 	class="underline "  target="_blank" rel="noopener"
 	>
-	<em>die Liste selbst</em>
+	<em>das Projekt selber</em>
 </a>.</p>
 <h1 id="stack">Stack:</h1>
-<p><strong>MongoDB</strong> und <strong>NestJS</strong> im Backend, <strong>VueJS</strong> 3.0 Beta komplett mit <strong>Typescript</strong> und <strong>VueX</strong> als Statemanager im Frontend.
-Besonderheit: Der Client und die API teilen sich die Typen, so habe ich über das ganze Projekt Typsicherheit und Autocompletion!
-<strong>Websockets</strong> sorgen für sofortige Synchronisation zwischen verschiedenen Clients, und das ganze Ding lässt sich auch als <strong>PWA</strong> auf dem Handy abspeichern.</p>
+<p>Das ganze Projekt baut auf <strong>NodeJS</strong> auf. Zum Speichern der Daten vor der Verwertung wurde <strong>MongoDB</strong> genutzt.
+Das ganze wird visualisiert mit <strong>LeafletJS</strong> und dessen <strong>Heatmap-Plugin</strong>.</p>
 <h1 id="what-does-it-do">What does it do?</h1>
-<p>Gute Frage! Features sind:</p>
-<ul>
-<li>Autocompletion beim Anlegen von Einträgen</li>
-<li>Historie vergangener Einkäufe</li>
-<li>Sofortige Synchronisation mit anderen Clients, super praktisch beim Einkaufen mit mehreren Leuten</li>
-</ul>
+<p>Über mehrere Wochen habe ich fleißig Live-Busdaten des 
+
+
+
+
+<a href="http://www.busradar-flensburg.de/" 
+	class="underline "  target="_blank" rel="noopener"
+	>
+	<em>Flensburger Busradars</em>
+</a> gescraped.
+Die Daten der Linien 11 und 4 wurden dann von einem Script ausgewertet. Zuerst wurden die Ticks der Busse auf die GPS-Linie angeglichen, welche ich in <strong>Google Maps</strong> nachgemalt und exportiert habe.
+Dann wurde zwischen diesen normalisierten Punkten die Fahrtrichtung, Geschwindigkeit und Beschleunigung ausgerechnet.
+Man kann also z.B. die Durchschnittsgeschwindigkeit der Linie 4 am ZOB Mittwoch nachts herausfinden.</p>
 <h1 id="but-why">But why?</h1>
-<p>Es ist 2020, und alles schriftliche auf Papier gehört langsam deprecated. Aus diesem Grund habe ich diese praktische Einkaufsliste entworfen. Und natürlich, weil
-ich mit neuen fancy Frameworks herumspielen wollte.</p>
+<p>Das Ganze war ein Projekt für das hervorragende Fach <strong>Informationsvisualisierung</strong> von Herrn Hartmann.
+Außerdem ist das Busradar ein toller Service, den ich unbedingt mal in einem Projekt verwenden wollte.</p>
 
 </div>
 
@@ -167,16 +173,17 @@ ich mit neuen fancy Frameworks herumspielen wollte.</p>
 
 <div class="flex flex-wrap justify-between items-center">
 	
-	<div class=" mb-1 text-center sm:text-left overflow-ellipsis pr-1">
-		<a class="mr-4 no-underline" href="https://jonasleitner.de/blog/bus_radar/">
-			<img src="/icons/top_arrow.svg" class="transform -rotate-90 inline-block">
+
+	
+	<div
+		class=" ml-auto  mt-1 text-center sm:text-right overflow-ellipsis pl-1">
+		<a href="https://jonasleitner.de/blog/shopping_list/">
+			<span class="underline">Shopping List</span>
 		</a>
-		<a href="https://jonasleitner.de/blog/bus_radar/">
-			<span class="underline">Busradar-Mining</span>
+		<a class="ml-4 no-underline" href="https://jonasleitner.de/blog/shopping_list/">
+			<img src="/icons/top_arrow.svg" class="transform rotate-90 inline-block">
 		</a>
 	</div>
-	
-
 	
 </div>
 

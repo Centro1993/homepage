@@ -22,5 +22,16 @@ Stack: MongoDB und NestJS im Backend, VueJS 3.0 Beta komplett mit Typescript und
 What does it do?</description>
     </item>
     
+    <item>
+      <title>Busradar-Mining</title>
+      <link>https://jonasleitner.de/blog/bus_radar/</link>
+      <pubDate>Sat, 10 Jun 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://jonasleitner.de/blog/bus_radar/</guid>
+      <description>Links  Github  und das Projekt selber .
+Stack: Das ganze Projekt baut auf NodeJS auf. Zum Speichern der Daten vor der Verwertung wurde MongoDB genutzt. Das ganze wird visualisiert mit LeafletJS und dessen Heatmap-Plugin.
+What does it do? Über mehrere Wochen habe ich fleißig Live-Busdaten des Flensburger Busradars  gescraped. Die Daten der Linien 11 und 4 wurden dann von einem Script ausgewertet. Zuerst wurden die Ticks der Busse auf die GPS-Linie angeglichen, welche ich in Google Maps nachgemalt und exportiert habe.</description>
+    </item>
+    
   </channel>
 </rss>
