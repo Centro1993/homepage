@@ -7,12 +7,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
+    - name: Build Hugo
+      uses: lowply/build-hugo@v0.74.3
     - name: copy file via ssh password
       uses: horochx/deploy-via-scp@master
       with:
-        local: public # eg: dist
-        remote: /var/www/html/homepage # eg: /home/github-action
-        host: ${{ secrets.HOST }} # eg: example.com
-        port: ${{ secrets.PORT }} # eg: 22
-        user: ${{ secrets.USERNAME }} # eg: github-action
-        key: ${{ secrets.KEY }} # eg: -----BEGIN OPENSSH PRIVATE KEY-----\nHEIiyzh5cT7hN...
+        local: public
+        remote: /var/www/html/homepage
+        host: ${{ secrets.HOST }}
+        port: ${{ secrets.PORT }}
+        user: ${{ secrets.USERNAME }}
+        key: ${{ secrets.KEY }}
