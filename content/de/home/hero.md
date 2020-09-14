@@ -24,4 +24,4 @@ hero_media = "/img/portrait.webp"
 
 # Moin! Ich bin ***Jonas Leitner***. Programmierer, DevOp, und Hobbybastler.
 
-Technologie ist meine Leidenschaft. Und Svea. :heart:
+Technologie ist meine Leidenschaft.
