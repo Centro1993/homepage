@@ -8,7 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Build Hugo
-      uses: lowply/build-hugo@v0.74.3
+      uses: lowply/build-hugo@v0.74.1
     - name: copy file via ssh password
       uses: horochx/deploy-via-scp@master
       with:
