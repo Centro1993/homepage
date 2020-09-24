@@ -6,7 +6,7 @@ title = "Kontakt"
 # standard forms.
 #
 # Form handler
-action = "/contact.php"
+action = "/contact/contact.php"
 # Form submit method
 # method = "GET" # Default is POST
 
