@@ -22,7 +22,7 @@ date_format = "Jan 2006" # Date format https://gohugo.io/functions/dateformat/#r
   subtitle = "Web Wikinger UG"
   location = "Flensburg"
   date_start = "2016-11-01"
-  date_end = "2017-12-01"
+  date_end = "2017-11-30"
   description = "Plugins und Erweiterung in PHP für das ERP-System PlentyMarkets."
 
 [[period]]
