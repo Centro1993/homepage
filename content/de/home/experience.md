@@ -14,15 +14,15 @@ date_format = "Jan 2006" # Date format https://gohugo.io/functions/dateformat/#r
   subtitle = "Codeanker GmbH"
   location = "Flensburg"
   date_start = "2017-12-01"
-  date_end = ""
+  date_end = "2020-11-30"
   description = "Programmierung in NodeJS, Typescript und Java. Einrichtung und Betreuung eines K8s-Clusters und DevOps-Pipelines."
 
 [[period]]
   title = "Backendprogrammierer / Pluginentwickler"
   subtitle = "Web Wikinger UG"
   location = "Flensburg"
-  date_start = "2017-12-01"
-  date_end = "2016-11-01"
+  date_start = "2016-11-01"
+  date_end = "2017-12-01"
   description = "Plugins und Erweiterung in PHP für das ERP-System PlentyMarkets."
 
 [[period]]
