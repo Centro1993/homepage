@@ -14,7 +14,7 @@ date_format = "Jan 2006" # Date format https://gohugo.io/functions/dateformat/#r
   subtitle = "Dataport AöR"
   location = "Friedrichsort"
   date_start = "2020-12-01"
-  date_end = "2021-12-01"
+  date_end = "Heute"
   description = "Einrichtung und Betreuung der K8s-Cluster und der darauf betriebenen Verfahren."
 
 [[period]]

@@ -11,15 +11,16 @@ subtitle = "Das hier kann ich. Und noch so einiges mehr."
 	name = "Programmierung"
 	percent = "95%"
 
-[[bar]]
-	icon = "/icons/data-storage.svg"
-	name = "Cloud Engineering"
-	percent = "85%"
 
 [[bar]]
 	icon = "/icons/refresh-server.svg"
 	name = "DevOps"
-	percent = "80%"
+	percent = "85%"
+
+[[bar]]
+	icon = "/icons/data-storage.svg"
+	name = "Cloud Engineering"
+	percent = "0%"
 
 [[bar]]
 	icon = "/icons/item-grid.svg"

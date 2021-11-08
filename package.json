@@ -9,14 +9,14 @@
 	"author": "Jonas Leitner",
 	"license": "MIT",
 	"dependencies": {
-		"@fullhuman/postcss-purgecss": "^2.3.0",
-		"autoprefixer": "^9.8.6",
-		"postcss": "^7.0.32",
-		"postcss-cli": "^7.1.2",
-		"postcss-import": "^12.0.1",
-		"tailwindcss": "^1.8.8"
+		"@fullhuman/postcss-purgecss": "^4.0.3",
+		"autoprefixer": "^10.4.0",
+		"postcss": "^8.3.11",
+		"postcss-cli": "^9.0.2",
+		"postcss-import": "^14.0.2",
+		"tailwindcss": "^2.2.19"
 	},
 	"devDependencies": {
-		"npm-check-updates": "^9.0.0"
+		"npm-check-updates": "^12.0.0"
 	}
 }
