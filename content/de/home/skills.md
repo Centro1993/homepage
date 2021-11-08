@@ -20,7 +20,7 @@ subtitle = "Das hier kann ich. Und noch so einiges mehr."
 [[bar]]
 	icon = "/icons/data-storage.svg"
 	name = "Cloud Engineering"
-	percent = "0%"
+	percent = "80%"
 
 [[bar]]
 	icon = "/icons/item-grid.svg"
